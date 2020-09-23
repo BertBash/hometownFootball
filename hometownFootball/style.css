@@ -1,0 +1,51 @@
+nav{
+    float: right;
+}
+
+li{
+    display: inline;
+    padding: 30px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+.hero{
+    /*Since the image itself isn't centered I had to move it slightly off center.*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+table{
+    margin: 3rem auto; /*I have no idea what "3rem auto" means, I just checked how they were centering theirs.*/
+}
+
+table td{
+    color: white;
+    padding: .5rem;
+    text-align: center;
+}
+
+.away{
+    color: yellow;
+}
+
+.home{
+    color: aqua;
+}
+body{
+    background-image: url('./images/texture-pattern-wallpaper_qkygh6.jpg');
+    background-size: cover;
+    margin: 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    
+}
+
+footer{
+    text-align: center;
+}
